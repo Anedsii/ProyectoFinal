@@ -1,0 +1,89 @@
+       @import "../css/Headers/variables";
+       header {
+           .nav_color {
+               background-color: $colornav;
+               font-size: 22px;
+           }
+       }
+       
+       section {
+           background-color: $bg-section;
+           h1 {
+               font-size: 53px;
+           }
+           .carusel-ancho {
+               height: 60vh;
+               object-fit: cover;
+           }
+           .margen {
+               padding: 70px;
+               object-fit: cover;
+           }
+           .title {
+               margin-top: 70px;
+               text-align: center;
+               font-size: 35px;
+           }
+           .textointro {
+               margin: 35px;
+               font-size: 23px;
+               text-align: justify;
+           }
+           .textointro2 {
+               margin-top: 145px;
+               margin-left: 100px;
+               margin-right: 80px;
+               font-size: 23px;
+               text-align: justify;
+           }
+           .margen {
+               margin: 1px;
+           }
+           .dimension {
+               margin: 20px;
+           }
+           .justificar {
+               text-align: justify;
+           }
+           .botonver {
+               height: 50px;
+               box-shadow: 5px 5px black;
+               width: 140px;
+               border-radius: 30px;
+               margin-top: 40px;
+               background-color: $colordeboton;
+               border: $colordeboton;
+           }
+           .section_foodimg {
+               margin-top: 80px;
+               margin-left: 40px;
+               border-radius: 75px;
+               background-image: url("../imagen/mijo.jpg");
+               width: 85%;
+               height: 400px;
+               background-color: aquamarine;
+           }
+           .col-lg-4 {
+               .card {
+                   text-align: center;
+                   margin-left: 190px;
+                   margin-top: 100px;
+                   border-top-left-radius: 10em;
+                   border-top-right-radius: 10em;
+                   border: none;
+                   box-shadow: 0px 0px 10px rgb(79, 94, 94);
+               }
+               .card img {
+                   border-top-left-radius: 10em;
+                   border-top-right-radius: 10em;
+               }
+           }
+       }
+       
+       footer {
+           background-color: rgb(91, 138, 122);
+           color: white;
+           a {
+               color: white;
+           }
+       }
