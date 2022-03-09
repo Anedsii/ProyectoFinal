@@ -23,6 +23,7 @@
                margin-top: 70px;
                text-align: center;
                font-size: 35px;
+               margin-bottom: 40px;
            }
            .textointro {
                margin: 35px;
@@ -78,12 +79,23 @@
                    border-top-right-radius: 10em;
                }
            }
+           .section_company {
+               font-size: 20px;
+               text-align: center;
+           }
+           .boton_company {
+               background-color: #5F7A61;
+               border: #444941;
+           }
        }
        
        footer {
-           background-color: rgb(91, 138, 122);
+           background-color: #5F7A61;
            color: white;
            a {
                color: white;
+           }
+           .footer_color {
+               background-color: #444941;
            }
        }

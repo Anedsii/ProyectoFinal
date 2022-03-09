@@ -15,7 +15,8 @@ section {
   section .title {
     margin-top: 70px;
     text-align: center;
-    font-size: 35px; }
+    font-size: 35px;
+    margin-bottom: 40px; }
   section .textointro {
     margin: 35px;
     font-size: 23px;
@@ -59,9 +60,17 @@ section {
   section .col-lg-4 .card img {
     border-top-left-radius: 10em;
     border-top-right-radius: 10em; }
+  section .section_company {
+    font-size: 20px;
+    text-align: center; }
+  section .boton_company {
+    background-color: #5F7A61;
+    border: #444941; }
 
 footer {
-  background-color: #5b8a7a;
+  background-color: #5F7A61;
   color: white; }
   footer a {
     color: white; }
+  footer .footer_color {
+    background-color: #444941; }
